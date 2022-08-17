@@ -1,0 +1,60 @@
+{
+	"masterPicture": "src/assets/images/logo/master_logo.png",
+	"iconsPath": "/",
+	"design": {
+		"ios": {
+			"pictureAspect": "backgroundAndMargin",
+			"backgroundColor": "#f5f3e4",
+			"margin": "0%",
+			"assets": {
+				"ios6AndPriorIcons": false,
+				"ios7AndLaterIcons": true,
+				"precomposedIcons": false,
+				"declareOnlyDefaultIcon": true
+			},
+			"appName": "Mohammad Sami"
+		},
+		"desktopBrowser": {
+			"design": "raw"
+		},
+		"windows": {
+			"pictureAspect": "noChange",
+			"backgroundColor": "#f3f4e4",
+			"onConflict": "override",
+			"assets": {
+				"windows80Ie10Tile": true,
+				"windows10Ie11EdgeTiles": {
+					"small": true,
+					"medium": true,
+					"big": true,
+					"rectangle": false
+				}
+			},
+			"appName": "Mohammad Sami"
+		},
+		"androidChrome": {
+			"pictureAspect": "backgroundAndMargin",
+			"margin": "0%",
+			"backgroundColor": "#f5f3e4",
+			"themeColor": "#f5f3e4",
+			"manifest": {
+				"name": "Mohammad Sami",
+				"display": "standalone",
+				"orientation": "notSet",
+				"onConflict": "override",
+				"declared": true
+			},
+			"assets": {
+				"legacyIcon": true,
+				"lowResolutionIcons": true
+			}
+		}
+	},
+	"settings": {
+		"scalingAlgorithm": "Mitchell",
+		"errorOnImageTooSmall": false,
+		"readmeFile": true,
+		"htmlCodeFile": true,
+		"usePathAsIs": false
+	}
+}
